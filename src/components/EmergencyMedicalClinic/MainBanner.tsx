@@ -54,16 +54,6 @@ const MainBanner: React.FC = () => {
                       data-aos-delay="400"
                       data-aos-duration="1200"
                     >
-                      <Link href="/appointment" className="default-btn">
-                        Book An Appointment
-                      </Link>
-
-                      <div
-                        onClick={() => setOpen(true)}
-                        className="default-btn active popup-youtube"
-                      >
-                        Play Now
-                      </div>
                     </div>
                   </div>
                 </div>
